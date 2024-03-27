@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MovieWatchList-React/static/css/main.896ae649.css",
+    "main.js": "/MovieWatchList-React/static/js/main.43ff5210.js",
+    "index.html": "/MovieWatchList-React/index.html",
+    "main.896ae649.css.map": "/MovieWatchList-React/static/css/main.896ae649.css.map",
+    "main.43ff5210.js.map": "/MovieWatchList-React/static/js/main.43ff5210.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.896ae649.css",
+    "static/js/main.43ff5210.js"
+  ]
+}
