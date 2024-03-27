@@ -20,7 +20,7 @@ function App() {
   const [rating, setRating] = useState(0);
 
   const getMovie = async (searchBarResults) => {
-    const url = `http://www.omdbapi.com/?s=${searchBarResults}&apikey=54c36b55`;
+    const url = `https://www.omdbapi.com/?s=${searchBarResults}&apikey=54c36b55`;
 
     const res = await fetch(url);
     const data = await res.json();
