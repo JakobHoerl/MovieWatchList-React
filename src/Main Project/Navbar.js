@@ -28,8 +28,11 @@ export default function Navbar({
 }
 
 function Searchbar({ setSearchBarResult, currValue }) {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
-    <form className="searchbar">
+    <form className="searchbar" onSubmit={handleSubmit}>
       <input
         onChange={(e) => setSearchBarResult(e)}
         value={currValue}
